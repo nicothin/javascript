@@ -15,9 +15,14 @@ Javascript (далее — JS) — прототипно-ориентирован
 - [Использование](use.md)
 - [Инициализация](inicialization.md)
 - [Переменные](variables.md)
+- [Область видимости](scope.md)
 - Типы данных
   - [Число](data-types__number.md)
   - [Строка](data-types__string.md)
-- [Область видимости](scope.md)
 - [Операторы (арифметика, присваивание, конкатенация)](operators.md)
 - [Операторы сравнения)](comparsion-operators.md)
+
+---
+
+https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+https://learn.javascript.ru/js
