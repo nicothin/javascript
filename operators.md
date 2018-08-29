@@ -1,4 +1,4 @@
-# Операторы
+# Операторы (арифметика, присваивание, конкатенация)
 
 У операторов есть [приоритет](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence), чем он выше, тем приоритетнее оператор.
 
