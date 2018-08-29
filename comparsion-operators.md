@@ -5,6 +5,7 @@
 ```js
 var varStr0  = '1';
 var varNum  = 1;
+var varNaN  = NaN;
 var varNull = null;
 var varUnd  = undefined;
 var varBool = true;
@@ -12,7 +13,8 @@ var varBool = true;
 // Равенство (приводит типы данных)
 console.log( varStr0 == varNum );  // true, т.к. при сравнении строки и числа строка приведется к числу
 console.log( varNull == varUnd );  // true, т.к. null == undefined
-console.log( varStr0 == varBool ); // true, т.к. true преобразуется в 1 (false преоразовался бы в 0)
+console.log( varStr0 == varBool ); // true, т.к. true преобразуется в 1 (false преобразовался бы в 0)
+console.log( varNaN == NaN );      // false, т.к. NaN не равен ничему, в т.ч. самому себе
 
 // Неравенство
 console.log( varStr0 != varNum );  // false, т.к. при сравнении строки и числа строка приведется к числу
