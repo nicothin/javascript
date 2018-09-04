@@ -68,6 +68,14 @@ console.log(arrNames3); // ["Маша", "Петя", "Марина", "Васил�
 var arrNames = ['Маша', 'Петя', 'Марина', 'Василий'];
 console.log( arrNames.indexOf('Петя') );     // 1 (поиск полным перебором с начала до конца)
 console.log( arrNames.lastIndexOf('Петя') ); // 1 (поиск полным перебором с конца до начала)
+
+// Проверка массива
+var arrNames = ['Маша', 'Петя', 'Марина', 'Василий'];
+function isMe(item) {
+  return item == 'Василий';
+}
+console.log( arrNames.every(isMe) ); // false (не все — Василий)
+console.log( arrNames.some(isMe) );  // true (Василий есть в массиве)
 ```
 
 
@@ -82,4 +90,38 @@ var typeArray = ['яблоко', 'вишня', 'апельсин'];
 for (var i = 0; i < typeArray.length; i++) {
   console.log( typeArray[i] );
 }
+```
+
+Более элегантный метод:
+
+```js
+var typeArray = ['яблоко', 'вишня', 'апельсин'];
+
+typeArray.forEach(function(item, i, arr) {
+  console.log( i + ": " + item + " (массив: " + arr + ")" );
+});
+```
+
+
+
+## Фильтрация
+
+```js
+var typeArray = ['яблоко', 'вишня', 'апельсин'];
+var typeArrayLong = typeArray.filter(function(item){
+  return item.length > 6;
+});
+console.log(typeArrayLong); // ["апельсин"]
+```
+
+
+
+## Трансформация
+
+```js
+var typeArray = ['яблоко', 'вишня', 'апельсин'];
+var typeArrayLength = typeArray.map(function(item){
+  return item.length;
+});
+console.log(typeArrayLength); // [6, 5, 8]
 ```
