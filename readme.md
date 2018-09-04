@@ -17,12 +17,23 @@ Javascript (далее — JS) — прототипно-ориентирован
 - [Переменные](variables.md)
 - [Область видимости](scope.md)
 - Типы данных
-  - [Число](data-types__number.md)
-  - [Строка](data-types__string.md)
+  - Простые типы
+    - [Число](data-types__number.md)
+    - [Строка](data-types__string.md)
+    - [Логический тип](data-types__boolean.md)
+    - [null и undefined](data-types__null-undefined.md)
+  - Объекты
+    - [Обычный объект](data-types__object.md)
+    - [Массив](data-types__array.md)
+    - [Функция]()
+    - [Объект даты]()
+    - [Регулярное выражение]()
+    - Ошибка
 - [Операторы (арифметика, присваивание, конкатенация)](operators.md)
 - [Операторы сравнения)](comparsion-operators.md)
+- [Условия]()
 
 ---
 
-https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+https://developer.mozilla.org/ru/docs/Web/JavaScript
 https://learn.javascript.ru/js
