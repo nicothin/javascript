@@ -18,20 +18,26 @@ Javascript (далее — JS) — прототипно-ориентирован
 - [Область видимости](scope.md)
 - Типы данных
   - Простые типы
-    - [Число](data-types__number.md)
-    - [Строка](data-types__string.md)
-    - [Логический тип](data-types__boolean.md)
-    - [null и undefined](data-types__null-undefined.md)
+    - [Число](data-types/data-types__number.md)
+    - [Строка](data-types/data-types__string.md)
+    - [Логический тип](data-types/data-types__boolean.md)
+    - [null и undefined](data-types/data-types__null-undefined.md)
   - Объекты
-    - [Обычный объект](data-types__object.md)
-    - [Массив](data-types__array.md)
-    - [Функция](data-types__function.md)
+    - [Обычный объект](data-types/data-types__object.md)
+    - [Массив](data-types/data-types__array.md)
+    - [Функция](data-types/data-types__function.md)
+    - [Регулярное выражение](data-types/data-types__regexp.md)
     - Объект даты
-    - Регулярное выражение
     - Ошибка
+- [Пространство имён](name-space.md)
 - [Операторы (арифметика, присваивание, конкатенация)](operators.md)
 - [Операторы сравнения)](comparsion-operators.md)
-- Условия
+- [Условия](conditions.md)
+- [Циклы](loops.md)
+- [Конструкторы](constructors.md)
+- [Прототипы](prototypes.md)
+- [Глобальный объект](global.md)
+- [Работа с DOM](dom.md)
 
 ---
 
